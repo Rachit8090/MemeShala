@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:src="@drawable/rpm"
+        android:layout_marginTop="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton"
+        android:layout_width="184dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#CC4B4B"
+        android:onClick="memesstart"
+        android:text="Start Tour"
+        android:textSize="20sp"
+        app:cornerRadius="25dp" />
+</LinearLayout>
